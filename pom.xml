@@ -556,6 +556,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
+       <!-- https://mvnrepository.com/artifact/com.googlecode.maven-download-plugin/download-maven-plugin -->
+<dependency>
+    <groupId>com.googlecode.maven-download-plugin</groupId>
+    <artifactId>download-maven-plugin</artifactId>
+    <version>1.4.1</version>
+</dependency>
+
 
     </dependencies>
 
