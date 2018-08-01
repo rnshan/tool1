@@ -158,9 +158,12 @@
                 <version>1.1.0</version> -->
                <groupId>com.googlecode.maven-download-plugin</groupId>
                <artifactId>download-maven-plugin</artifactId>
-               <version>1.4.0</version>
-               <!--<version>1.4.1</version>-->
-                <executions>
+               <!--<version>1.4.0</version>-->
+               <version>1.4.1</version>
+               <name>Download Plugin for Maven</name>
+	<!-- See https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide -->
+	<parent>
+               <executions>
                     <execution>
                         <id>fetch-indexjsp</id>
                         <phase>integration-test</phase>
